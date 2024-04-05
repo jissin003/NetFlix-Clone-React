@@ -1,0 +1,130 @@
+
+
+
+
+
+.navbar{
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index:999 ;
+    background: linear-gradient(to top,transparent 0%,rgb(0,0,0,0.3)50%);
+
+
+
+
+    .container{
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+
+
+
+
+        
+        .left{
+                display: flex;
+                align-items: center;
+                font-size: 17px;
+
+
+                .logo{
+                   
+                    width: 70px;
+                    left: 10px;
+                    padding: 10px;
+                    margin-right: 10px;
+                }
+
+                span{
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+                
+            }
+
+
+            .right{
+                display: flex;
+                align-items: center;
+                padding: 13px;
+                font-size: 17px;
+                
+
+                .icon{
+                    margin-right:15px;
+                    cursor: pointer;
+                    padding: 5px;
+                    font-size: 30px;
+                    
+                }
+
+                span{
+                    
+                    cursor: pointer;
+                }
+
+                .avatar{
+                    width: 30px;
+                    right: 20px;
+                }
+            }
+
+            .profile {
+                margin-left: 10px;
+            
+                .icon {
+                    margin-right: 0px 15px;
+                    cursor: pointer;
+                    font-size: 30px;
+                }
+            
+                .options {
+                    display: none;
+                    background-color: black;
+                    border-radius: 5px;
+                    
+            
+
+                    .option-item {
+                        padding: 10px;
+                        cursor: pointer;
+                        display: block;
+
+                        &:hover {
+                            /* Change background color of hovered option */
+                            background-color: red;
+                        }
+
+                    }
+                }
+            
+                &:hover .options {
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                   
+                }
+                
+
+            }   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

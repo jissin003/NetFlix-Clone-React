@@ -1,0 +1,43 @@
+.suggestions{
+    margin-left: 10px;
+    color: #fff;;
+    padding-top: 20px;
+}
+
+.suggestion_movies{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+
+.suggestion_movies::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+.smallposters{
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.posters{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallposters:hover{
+    transform: scale(1.1);
+}
+
+.posters:hover{
+    transform: scale(1.1);
+}
